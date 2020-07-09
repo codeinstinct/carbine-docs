@@ -1,25 +1,10 @@
-﻿ul
+﻿/*ul
 {
     list-style:none;
     padding:0;
     margin:1em;
     border:1px solid gray;
-}
-
-.item
-{
-    padding:1em;
-}
-
-.item:hover
-{
-    background-color:lightgray;
-    cursor:pointer;
-}
-
-.selected-item {
-    background-color: lightblue;
-}
+}*/
 
 .md-container
 {
