@@ -1,0 +1,38 @@
+﻿ul
+{
+    list-style:none;
+    padding:0;
+    margin:1em;
+    border:1px solid gray;
+}
+
+.item
+{
+    padding:1em;
+}
+
+.item:hover
+{
+    background-color:lightgray;
+    cursor:pointer;
+}
+
+.selected-item {
+    background-color: lightblue;
+}
+
+.md-container
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+    .md-container .master
+    {
+        flex-basis:30%;
+    }
+
+    .md-container .detail {
+        flex-basis: 70%;
+    }
